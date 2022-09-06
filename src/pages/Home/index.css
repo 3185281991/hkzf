@@ -1,0 +1,29 @@
+.home {
+  width: 100vw;
+  padding-bottom: 9vh;
+  height: 100%;
+}
+.home .tab {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 9vh;
+  background-color: #fff;
+}
+.home .tab .adm-tab-bar-wrap {
+  height: 100%;
+}
+.home .tab .adm-tab-bar-wrap .adm-tab-bar-item {
+  color: #555;
+}
+.home .tab .adm-tab-bar-wrap .adm-tab-bar-item-active {
+  color: green;
+}
+.home .tab .adm-tab-bar-wrap .adm-tab-bar-item-title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.iconfont {
+  font-size: 25px !important;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,220 @@
+.index{
+  background-color: #eeeeee;
+  width: 100vw;
+  .nt{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    .left{
+        height: 100%;
+        line-height:100%;
+        width: 90%;
+         border-radius: 3px;
+         background-color: #fff;
+         position: relative;
+           span{
+             display: inline-block;
+             font-size:17px ;
+             width: 15%;
+             height: 100%;
+             line-height: 35px;
+             text-align: center;
+           }
+           .input{
+             height: 100%;
+             width: 75%;
+           }
+           .icon-arrow{
+             display: inline-block;
+             width: 10%;
+             position: relative;
+             top: 4px;
+             left: 4px;
+           }
+           .icon-seach{
+             display: inline-block;
+             font-size: 20px;
+             position: absolute;
+             left: 27%;
+             top: 30%;
+           }
+
+    }
+    .icon-map{
+      display: inline-block;
+      width: 10%;
+      height: 100%;
+      text-align: center;
+      line-height: 35px;
+      font-size: 30px !important;
+    }
+
+  }
+  .swiper{
+    width: 100vw;
+    height: 200px;
+    .content {
+      height: 100%;
+      color: #eeeeee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      user-select: none;
+
+      img{
+        min-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+  
+  .nav{
+    margin-top: 10px;
+    width: 100vw;
+    height: 65px;
+    background-color: #fff;
+    div{
+      float: left;
+      width: 20%;
+      margin-left: 3%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;   
+      text-align: center; 
+      text-decoration: none;
+      img{
+        max-width: 10vw;
+        max-height: 100%;
+        display: block;
+        margin-left: 5vw;
+        margin-bottom: 3px;
+      }
+      span{
+        font-size: 14px;
+        color: green;
+      }
+    }
+
+  }
+  .rentG{
+    margin-top: 5px;
+    width: 100vw;
+    .top{
+      height: 30px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      span{
+        font-size: 18px;
+        line-height: 30px;
+      }
+      span:nth-child(1){
+        padding-left: 5px;
+        float: left;
+        font-weight: bold;
+      }
+      span:nth-child(2){
+        float: right;
+        margin-right: 20px;
+      }
+    }
+    .rcon{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      
+      .item{
+        margin-bottom: 10px;
+        width: 45vw;
+        height: 90px;
+        background-color: #ffffff; 
+        display: flex;
+        border-radius: 10px;
+      .l{
+          width: 55%;
+          height: 100%;
+          position: relative;
+          span{
+            position: absolute;
+            display: block;
+            width: 100%;
+            text-align: center;
+          }
+          span:nth-child(1){
+            font-size: 14px;
+            font-weight: bold;
+            top: 20%;
+          }
+          span:nth-child(2){
+            font-size: 13px;
+            top: 60%;
+          }
+        }
+       img{
+         display: block;
+         width: 80px;
+       }
+      }
+    }
+  }
+  .infom{
+    width: 100vw;
+    background-color: #fff;
+    .top{
+      padding-top: 10px;
+      height: 30px;
+      span{
+        font-size: 18px;
+        line-height: 30px;
+      }
+      span:nth-child(1){
+        padding-left: 5px;
+        float: left;
+        font-weight: bold;
+      }
+    }
+    .fitem{
+      width: 100%;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .left{
+        width: 50%;
+        img{
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+      .right{
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        .rt{
+          width: 100%;
+          position: absolute;
+          top: -60px;
+          font-size: 16px;
+          text-align: center;
+          font-weight: bold;
+        }
+        .ru{
+          width: 96%;
+          left: 2%;
+          position: absolute;
+          bottom: -60px;
+          font-size: 16px;
+          text-align: center;
+          display: flex;
+          justify-content: space-between;
+
+        }
+      }
+    }
+  }
+}
